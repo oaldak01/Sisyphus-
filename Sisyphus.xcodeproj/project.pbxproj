@@ -71,9 +71,9 @@
 /* Begin PBXFileReference section */
 		99174EE32EAAE75100706660 /* DiciplineContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DiciplineContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		99174F012EAB000100706660 /* DiciplineShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DiciplineShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		99DCEC082EAAD3AA00737AEE /* DiciplineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiciplineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		99DCEC182EAAD3AB00737AEE /* DiciplineAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiciplineAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		99DCEC222EAAD3AB00737AEE /* DiciplineAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiciplineAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DCEC082EAAD3AA00737AEE /* Sisyphus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sisyphus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DCEC182EAAD3AB00737AEE /* SisyphusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisyphusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DCEC222EAAD3AB00737AEE /* SisyphusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SisyphusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DCEC832EAADB4B00737AEE /* DiciplineApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiciplineApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,12 +92,12 @@
 			);
 			target = 99174F072EAB000100706660 /* DiciplineShareExtension */;
 		};
-		998608BF2FD3AE0200EA4EAD /* Exceptions for "DiciplineApp" folder in "DiciplineApp" target */ = {
+		998608BF2FD3AE0200EA4EAD /* Exceptions for "DiciplineApp" folder in "Sisyphus" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 99DCEC072EAAD3AA00737AEE /* DiciplineApp */;
+			target = 99DCEC072EAAD3AA00737AEE /* Sisyphus */;
 		};
 		998F59892FD30BBE00671DF7 /* Exceptions for "DiciplineApp" folder in "DiciplineContentBlocker" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -106,28 +106,28 @@
 			);
 			target = 99174EE22EAAE75100706660 /* DiciplineContentBlocker */;
 		};
-		99DCEC3A2EAAD3EC00737AEE /* Exceptions for "DiciplineAppUITests" folder in "DiciplineAppTests" target */ = {
+		99DCEC3A2EAAD3EC00737AEE /* Exceptions for "DiciplineAppUITests" folder in "SisyphusTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 99DCEC172EAAD3AB00737AEE /* DiciplineAppTests */;
+			target = 99DCEC172EAAD3AB00737AEE /* SisyphusTests */;
 		};
-		99DCEC4F2EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "DiciplineAppTests" target */ = {
+		99DCEC4F2EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "SisyphusTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				BlockingManager.swift,
 				ContentView.swift,
 			);
-			target = 99DCEC172EAAD3AB00737AEE /* DiciplineAppTests */;
+			target = 99DCEC172EAAD3AB00737AEE /* SisyphusTests */;
 		};
-		99DCEC502EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "DiciplineAppUITests" target */ = {
+		99DCEC502EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "SisyphusUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				BlockingManager.swift,
 				ContentView.swift,
 			);
-			target = 99DCEC212EAAD3AB00737AEE /* DiciplineAppUITests */;
+			target = 99DCEC212EAAD3AB00737AEE /* SisyphusUITests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -151,9 +151,9 @@
 		99DCEC0A2EAAD3AA00737AEE /* DiciplineApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				998608BF2FD3AE0200EA4EAD /* Exceptions for "DiciplineApp" folder in "DiciplineApp" target */,
-				99DCEC4F2EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "DiciplineAppTests" target */,
-				99DCEC502EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "DiciplineAppUITests" target */,
+				998608BF2FD3AE0200EA4EAD /* Exceptions for "DiciplineApp" folder in "Sisyphus" target */,
+				99DCEC4F2EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "SisyphusTests" target */,
+				99DCEC502EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "SisyphusUITests" target */,
 				998F59892FD30BBE00671DF7 /* Exceptions for "DiciplineApp" folder in "DiciplineContentBlocker" target */,
 			);
 			path = DiciplineApp;
@@ -167,7 +167,7 @@
 		99DCEC252EAAD3AB00737AEE /* DiciplineAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				99DCEC3A2EAAD3EC00737AEE /* Exceptions for "DiciplineAppUITests" folder in "DiciplineAppTests" target */,
+				99DCEC3A2EAAD3EC00737AEE /* Exceptions for "DiciplineAppUITests" folder in "SisyphusTests" target */,
 			);
 			path = DiciplineAppUITests;
 			sourceTree = "<group>";
@@ -238,9 +238,9 @@
 		99DCEC092EAAD3AA00737AEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99DCEC082EAAD3AA00737AEE /* DiciplineApp.app */,
-				99DCEC182EAAD3AB00737AEE /* DiciplineAppTests.xctest */,
-				99DCEC222EAAD3AB00737AEE /* DiciplineAppUITests.xctest */,
+				99DCEC082EAAD3AA00737AEE /* Sisyphus.app */,
+				99DCEC182EAAD3AB00737AEE /* SisyphusTests.xctest */,
+				99DCEC222EAAD3AB00737AEE /* SisyphusUITests.xctest */,
 				99174EE32EAAE75100706660 /* DiciplineContentBlocker.appex */,
 				99174F012EAB000100706660 /* DiciplineShareExtension.appex */,
 			);
@@ -294,9 +294,9 @@
 			productReference = 99174F012EAB000100706660 /* DiciplineShareExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		99DCEC072EAAD3AA00737AEE /* DiciplineApp */ = {
+		99DCEC072EAAD3AA00737AEE /* Sisyphus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99DCEC2C2EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "DiciplineApp" */;
+			buildConfigurationList = 99DCEC2C2EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "Sisyphus" */;
 			buildPhases = (
 				99DCEC042EAAD3AA00737AEE /* Sources */,
 				99DCEC052EAAD3AA00737AEE /* Frameworks */,
@@ -313,17 +313,17 @@
 			fileSystemSynchronizedGroups = (
 				99DCEC0A2EAAD3AA00737AEE /* DiciplineApp */,
 			);
-			name = DiciplineApp;
+			name = Sisyphus;
 			packageProductDependencies = (
 				998609822FD43B2700EA4EAD /* Lottie */,
 			);
 			productName = DiciplineApp;
-			productReference = 99DCEC082EAAD3AA00737AEE /* DiciplineApp.app */;
+			productReference = 99DCEC082EAAD3AA00737AEE /* Sisyphus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		99DCEC172EAAD3AB00737AEE /* DiciplineAppTests */ = {
+		99DCEC172EAAD3AB00737AEE /* SisyphusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99DCEC2F2EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "DiciplineAppTests" */;
+			buildConfigurationList = 99DCEC2F2EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "SisyphusTests" */;
 			buildPhases = (
 				99DCEC142EAAD3AB00737AEE /* Sources */,
 				99DCEC152EAAD3AB00737AEE /* Frameworks */,
@@ -337,16 +337,16 @@
 			fileSystemSynchronizedGroups = (
 				99DCEC1B2EAAD3AB00737AEE /* DiciplineAppTests */,
 			);
-			name = DiciplineAppTests;
+			name = SisyphusTests;
 			packageProductDependencies = (
 			);
 			productName = DiciplineAppTests;
-			productReference = 99DCEC182EAAD3AB00737AEE /* DiciplineAppTests.xctest */;
+			productReference = 99DCEC182EAAD3AB00737AEE /* SisyphusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		99DCEC212EAAD3AB00737AEE /* DiciplineAppUITests */ = {
+		99DCEC212EAAD3AB00737AEE /* SisyphusUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99DCEC322EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "DiciplineAppUITests" */;
+			buildConfigurationList = 99DCEC322EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "SisyphusUITests" */;
 			buildPhases = (
 				99DCEC1E2EAAD3AB00737AEE /* Sources */,
 				99DCEC1F2EAAD3AB00737AEE /* Frameworks */,
@@ -360,11 +360,11 @@
 			fileSystemSynchronizedGroups = (
 				99DCEC252EAAD3AB00737AEE /* DiciplineAppUITests */,
 			);
-			name = DiciplineAppUITests;
+			name = SisyphusUITests;
 			packageProductDependencies = (
 			);
 			productName = DiciplineAppUITests;
-			productReference = 99DCEC222EAAD3AB00737AEE /* DiciplineAppUITests.xctest */;
+			productReference = 99DCEC222EAAD3AB00737AEE /* SisyphusUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -396,7 +396,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 99DCEC032EAAD3AA00737AEE /* Build configuration list for PBXProject "DiciplineApp" */;
+			buildConfigurationList = 99DCEC032EAAD3AA00737AEE /* Build configuration list for PBXProject "Sisyphus" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -414,9 +414,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99DCEC072EAAD3AA00737AEE /* DiciplineApp */,
-				99DCEC172EAAD3AB00737AEE /* DiciplineAppTests */,
-				99DCEC212EAAD3AB00737AEE /* DiciplineAppUITests */,
+				99DCEC072EAAD3AA00737AEE /* Sisyphus */,
+				99DCEC172EAAD3AB00737AEE /* SisyphusTests */,
+				99DCEC212EAAD3AB00737AEE /* SisyphusUITests */,
 				99174EE22EAAE75100706660 /* DiciplineContentBlocker */,
 				99174F072EAB000100706660 /* DiciplineShareExtension */,
 			);
@@ -512,12 +512,12 @@
 		};
 		99DCEC1A2EAAD3AB00737AEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 99DCEC072EAAD3AA00737AEE /* DiciplineApp */;
+			target = 99DCEC072EAAD3AA00737AEE /* Sisyphus */;
 			targetProxy = 99DCEC192EAAD3AB00737AEE /* PBXContainerItemProxy */;
 		};
 		99DCEC242EAAD3AB00737AEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 99DCEC072EAAD3AA00737AEE /* DiciplineApp */;
+			target = 99DCEC072EAAD3AA00737AEE /* Sisyphus */;
 			targetProxy = 99DCEC232EAAD3AB00737AEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -841,7 +841,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiciplineApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiciplineApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sisyphus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sisyphus";
 			};
 			name = Debug;
 		};
@@ -860,7 +860,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiciplineApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiciplineApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sisyphus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sisyphus";
 			};
 			name = Release;
 		};
@@ -921,7 +921,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99DCEC032EAAD3AA00737AEE /* Build configuration list for PBXProject "DiciplineApp" */ = {
+		99DCEC032EAAD3AA00737AEE /* Build configuration list for PBXProject "Sisyphus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99DCEC2A2EAAD3AB00737AEE /* Debug */,
@@ -930,7 +930,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99DCEC2C2EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "DiciplineApp" */ = {
+		99DCEC2C2EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "Sisyphus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99DCEC2D2EAAD3AB00737AEE /* Debug */,
@@ -939,7 +939,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99DCEC2F2EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "DiciplineAppTests" */ = {
+		99DCEC2F2EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "SisyphusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99DCEC302EAAD3AB00737AEE /* Debug */,
@@ -948,7 +948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99DCEC322EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "DiciplineAppUITests" */ = {
+		99DCEC322EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "SisyphusUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99DCEC332EAAD3AB00737AEE /* Debug */,
