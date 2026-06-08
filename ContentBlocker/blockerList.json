@@ -1,0 +1,290 @@
+[
+  {
+    "trigger": {
+      "url-filter": ".*pornhub.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*xvideos.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*xnxx.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*redtube.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*youporn.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*tube8.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\.porn\\..*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\.sex\\..*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\.xxx.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*adult.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*spankbang.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*xhamster.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*eporner.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*gotporn.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*porntrex.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*drtuber.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*tnaflix.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*empflix.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*keezmovies.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*pornerbros.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*4tube.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*xtube.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*fuq.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*pornhd.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*txxx.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*hqporner.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*upornia.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*fapster.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*hdzog.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*sunporno.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*beeg.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*onlyfans.*",
+      "resource-type": ["document", "image", "style-sheet", "script", "font", "media", "popup"]
+    },
+    "action": {
+      "type": "block"
+    }
+  }
+]

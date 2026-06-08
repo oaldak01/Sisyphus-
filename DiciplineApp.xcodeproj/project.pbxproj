@@ -6,7 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		99174EEC2EAAE75100706660 /* DiciplineContentBlocker.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 99174EE32EAAE75100706660 /* DiciplineContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		99174F0D2EAB000100706660 /* DiciplineShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 99174F012EAB000100706660 /* DiciplineShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		998609832FD43B2700EA4EAD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 998609822FD43B2700EA4EAD /* Lottie */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
+		99174EEA2EAAE75100706660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DCEC002EAAD3AA00737AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99174EE22EAAE75100706660;
+			remoteInfo = DiciplineContentBlocker;
+		};
+		99174F0B2EAB000100706660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DCEC002EAAD3AA00737AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99174F072EAB000100706660;
+			remoteInfo = DiciplineShareExtension;
+		};
 		99DCEC192EAAD3AB00737AEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 99DCEC002EAAD3AA00737AEE /* Project object */;
@@ -23,15 +43,119 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		99174EF12EAAE75100706660 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				99174EEC2EAAE75100706660 /* DiciplineContentBlocker.appex in Embed Foundation Extensions */,
+				99174F0D2EAB000100706660 /* DiciplineShareExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998608C72FD3BD6A00EA4EAD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		99174EE32EAAE75100706660 /* DiciplineContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DiciplineContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		99174F012EAB000100706660 /* DiciplineShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DiciplineShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DCEC082EAAD3AA00737AEE /* DiciplineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiciplineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DCEC182EAAD3AB00737AEE /* DiciplineAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiciplineAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DCEC222EAAD3AB00737AEE /* DiciplineAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiciplineAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DCEC832EAADB4B00737AEE /* DiciplineApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiciplineApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		99174EF02EAAE75100706660 /* Exceptions for "DiciplineContentBlocker" folder in "DiciplineContentBlocker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 99174EE22EAAE75100706660 /* DiciplineContentBlocker */;
+		};
+		99174F032EAB000100706660 /* Exceptions for "DiciplineShareExtension" folder in "DiciplineShareExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 99174F072EAB000100706660 /* DiciplineShareExtension */;
+		};
+		998608BF2FD3AE0200EA4EAD /* Exceptions for "DiciplineApp" folder in "DiciplineApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 99DCEC072EAAD3AA00737AEE /* DiciplineApp */;
+		};
+		998F59892FD30BBE00671DF7 /* Exceptions for "DiciplineApp" folder in "DiciplineContentBlocker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				sisyphus.svg,
+			);
+			target = 99174EE22EAAE75100706660 /* DiciplineContentBlocker */;
+		};
+		99DCEC3A2EAAD3EC00737AEE /* Exceptions for "DiciplineAppUITests" folder in "DiciplineAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 99DCEC172EAAD3AB00737AEE /* DiciplineAppTests */;
+		};
+		99DCEC4F2EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "DiciplineAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BlockingManager.swift,
+				ContentView.swift,
+			);
+			target = 99DCEC172EAAD3AB00737AEE /* DiciplineAppTests */;
+		};
+		99DCEC502EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "DiciplineAppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				BlockingManager.swift,
+				ContentView.swift,
+			);
+			target = 99DCEC212EAAD3AB00737AEE /* DiciplineAppUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		99174EE42EAAE75100706660 /* DiciplineContentBlocker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				99174EF02EAAE75100706660 /* Exceptions for "DiciplineContentBlocker" folder in "DiciplineContentBlocker" target */,
+			);
+			path = DiciplineContentBlocker;
+			sourceTree = "<group>";
+		};
+		99174F022EAB000100706660 /* DiciplineShareExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				99174F032EAB000100706660 /* Exceptions for "DiciplineShareExtension" folder in "DiciplineShareExtension" target */,
+			);
+			path = DiciplineShareExtension;
+			sourceTree = "<group>";
+		};
 		99DCEC0A2EAAD3AA00737AEE /* DiciplineApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				998608BF2FD3AE0200EA4EAD /* Exceptions for "DiciplineApp" folder in "DiciplineApp" target */,
+				99DCEC4F2EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "DiciplineAppTests" target */,
+				99DCEC502EAAD4F300737AEE /* Exceptions for "DiciplineApp" folder in "DiciplineAppUITests" target */,
+				998F59892FD30BBE00671DF7 /* Exceptions for "DiciplineApp" folder in "DiciplineContentBlocker" target */,
+			);
 			path = DiciplineApp;
 			sourceTree = "<group>";
 		};
@@ -42,16 +166,34 @@
 		};
 		99DCEC252EAAD3AB00737AEE /* DiciplineAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				99DCEC3A2EAAD3EC00737AEE /* Exceptions for "DiciplineAppUITests" folder in "DiciplineAppTests" target */,
+			);
 			path = DiciplineAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		99174EE02EAAE75100706660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99174F042EAB000100706660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99DCEC052EAAD3AA00737AEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998609832FD43B2700EA4EAD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +214,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		998608C12FD3BBBF00EA4EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		99DCEBFF2EAAD3AA00737AEE = {
 			isa = PBXGroup;
 			children = (
 				99DCEC0A2EAAD3AA00737AEE /* DiciplineApp */,
 				99DCEC1B2EAAD3AB00737AEE /* DiciplineAppTests */,
 				99DCEC252EAAD3AB00737AEE /* DiciplineAppUITests */,
+				99174EE42EAAE75100706660 /* DiciplineContentBlocker */,
+				99174F022EAB000100706660 /* DiciplineShareExtension */,
 				99DCEC092EAAD3AA00737AEE /* Products */,
+				99DCEC832EAADB4B00737AEE /* DiciplineApp.entitlements */,
+				998608C12FD3BBBF00EA4EAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +241,8 @@
 				99DCEC082EAAD3AA00737AEE /* DiciplineApp.app */,
 				99DCEC182EAAD3AB00737AEE /* DiciplineAppTests.xctest */,
 				99DCEC222EAAD3AB00737AEE /* DiciplineAppUITests.xctest */,
+				99174EE32EAAE75100706660 /* DiciplineContentBlocker.appex */,
+				99174F012EAB000100706660 /* DiciplineShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +250,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		99174EE22EAAE75100706660 /* DiciplineContentBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99174EED2EAAE75100706660 /* Build configuration list for PBXNativeTarget "DiciplineContentBlocker" */;
+			buildPhases = (
+				99174EDF2EAAE75100706660 /* Sources */,
+				99174EE02EAAE75100706660 /* Frameworks */,
+				99174EE12EAAE75100706660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				99174EE42EAAE75100706660 /* DiciplineContentBlocker */,
+			);
+			name = DiciplineContentBlocker;
+			packageProductDependencies = (
+			);
+			productName = DiciplineContentBlocker;
+			productReference = 99174EE32EAAE75100706660 /* DiciplineContentBlocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		99174F072EAB000100706660 /* DiciplineShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99174F0A2EAB000100706660 /* Build configuration list for PBXNativeTarget "DiciplineShareExtension" */;
+			buildPhases = (
+				99174F062EAB000100706660 /* Sources */,
+				99174F042EAB000100706660 /* Frameworks */,
+				99174F052EAB000100706660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				99174F022EAB000100706660 /* DiciplineShareExtension */,
+			);
+			name = DiciplineShareExtension;
+			packageProductDependencies = (
+			);
+			productName = DiciplineShareExtension;
+			productReference = 99174F012EAB000100706660 /* DiciplineShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		99DCEC072EAAD3AA00737AEE /* DiciplineApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99DCEC2C2EAAD3AB00737AEE /* Build configuration list for PBXNativeTarget "DiciplineApp" */;
@@ -102,16 +301,21 @@
 				99DCEC042EAAD3AA00737AEE /* Sources */,
 				99DCEC052EAAD3AA00737AEE /* Frameworks */,
 				99DCEC062EAAD3AA00737AEE /* Resources */,
+				99174EF12EAAE75100706660 /* Embed Foundation Extensions */,
+				998608C72FD3BD6A00EA4EAD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				99174EEB2EAAE75100706660 /* PBXTargetDependency */,
+				99174F0C2EAB000100706660 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				99DCEC0A2EAAD3AA00737AEE /* DiciplineApp */,
 			);
 			name = DiciplineApp;
 			packageProductDependencies = (
+				998609822FD43B2700EA4EAD /* Lottie */,
 			);
 			productName = DiciplineApp;
 			productReference = 99DCEC082EAAD3AA00737AEE /* DiciplineApp.app */;
@@ -171,8 +375,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
+					99174EE22EAAE75100706660 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					99174F072EAB000100706660 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					99DCEC072EAAD3AA00737AEE = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -195,6 +405,10 @@
 			);
 			mainGroup = 99DCEBFF2EAAD3AA00737AEE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				998609802FD43AC000EA4EAD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				998609812FD43B1E00EA4EAD /* XCRemoteSwiftPackageReference "dotlottie-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 99DCEC092EAAD3AA00737AEE /* Products */;
 			projectDirPath = "";
@@ -203,11 +417,27 @@
 				99DCEC072EAAD3AA00737AEE /* DiciplineApp */,
 				99DCEC172EAAD3AB00737AEE /* DiciplineAppTests */,
 				99DCEC212EAAD3AB00737AEE /* DiciplineAppUITests */,
+				99174EE22EAAE75100706660 /* DiciplineContentBlocker */,
+				99174F072EAB000100706660 /* DiciplineShareExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		99174EE12EAAE75100706660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99174F052EAB000100706660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99DCEC062EAAD3AA00737AEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,6 +462,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		99174EDF2EAAE75100706660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99174F062EAB000100706660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99DCEC042EAAD3AA00737AEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +500,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		99174EEB2EAAE75100706660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99174EE22EAAE75100706660 /* DiciplineContentBlocker */;
+			targetProxy = 99174EEA2EAAE75100706660 /* PBXContainerItemProxy */;
+		};
+		99174F0C2EAB000100706660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99174F072EAB000100706660 /* DiciplineShareExtension */;
+			targetProxy = 99174F0B2EAB000100706660 /* PBXContainerItemProxy */;
+		};
 		99DCEC1A2EAAD3AB00737AEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 99DCEC072EAAD3AA00737AEE /* DiciplineApp */;
@@ -269,6 +523,114 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		99174EEE2EAAE75100706660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DiciplineContentBlocker/DiciplineContentBlocker.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiciplineContentBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DiciplineContentBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.DiciplineApp.DiciplineContentBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99174EEF2EAAE75100706660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DiciplineContentBlocker/DiciplineContentBlocker.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiciplineContentBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DiciplineContentBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.DiciplineApp.DiciplineContentBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99174F082EAB000100706660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DiciplineShareExtension/DiciplineShareExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiciplineShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Block in Discipline";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.DiciplineApp.DiciplineShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99174F092EAB000100706660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DiciplineShareExtension/DiciplineShareExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiciplineShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Block in Discipline";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.DiciplineApp.DiciplineShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		99DCEC2A2EAAD3AB00737AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -302,8 +664,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = DiciplineApp/DiciplineApp.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q7AP366SV2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -327,7 +691,9 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -365,8 +731,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = DiciplineApp/DiciplineApp.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q7AP366SV2;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -383,7 +751,9 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -393,17 +763,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DiciplineApp/Preview Content\"";
-				DEVELOPMENT_TEAM = Q7AP366SV2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiciplineApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,6 +785,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = admin.DiciplineApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,17 +797,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DiciplineApp/Preview Content\"";
-				DEVELOPMENT_TEAM = Q7AP366SV2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiciplineApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +819,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = admin.DiciplineApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,11 +830,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q7AP366SV2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = admin.DiciplineAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,11 +849,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q7AP366SV2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = admin.DiciplineAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,10 +867,11 @@
 		99DCEC332EAAD3AB00737AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q7AP366SV2;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = admin.DiciplineAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -504,10 +885,11 @@
 		99DCEC342EAAD3AB00737AEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q7AP366SV2;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = admin.DiciplineAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,6 +903,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		99174EED2EAAE75100706660 /* Build configuration list for PBXNativeTarget "DiciplineContentBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99174EEE2EAAE75100706660 /* Debug */,
+				99174EEF2EAAE75100706660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99174F0A2EAB000100706660 /* Build configuration list for PBXNativeTarget "DiciplineShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99174F082EAB000100706660 /* Debug */,
+				99174F092EAB000100706660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		99DCEC032EAAD3AA00737AEE /* Build configuration list for PBXProject "DiciplineApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -558,6 +958,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		998609802FD43AC000EA4EAD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.0;
+			};
+		};
+		998609812FD43B1E00EA4EAD /* XCRemoteSwiftPackageReference "dotlottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LottieFiles/dotlottie-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		998609822FD43B2700EA4EAD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 998609802FD43AC000EA4EAD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 99DCEC002EAAD3AA00737AEE /* Project object */;
 }

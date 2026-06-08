@@ -1,0 +1,427 @@
+[
+  {
+    "trigger": {
+      "url-filter": ".*porn.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*xxx.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*sex.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*adult.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*nsfw.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*reddit\\.com/r/.*gonewild.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*reddit\\.com/r/.*nsfw.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*reddit\\.com/r/.*porn.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*reddit\\.com/r/.*sex.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*onlyfans.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*chaturbate.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*pornhub\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*xvideos\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*xnxx\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*redtube\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*youporn\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*xhamster\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*spankbang\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*beeg\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*tnaflix\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*tube8\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*erome\\.com.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*simpcity\\.cr.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*simptown\\.su.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*bunkr-albums\\.io.*",
+      "resource-type": [
+        "document",
+        "image",
+        "style-sheet",
+        "script",
+        "font",
+        "media",
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  }
+]
